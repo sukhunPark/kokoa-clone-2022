@@ -7,19 +7,39 @@
     <title>Welcome to Yalralloo Talk</title>
   </head>
   <body>
-    <div id="status-bar">
+    <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
-        <!--Wifi Icon-->
+        <i class="fa-solid fa-wifi"></i>
       </div>
       <div class="status-bar__column">
         <span>11:11</span>
       </div>
       <div class="status-bar__column">
         <span>123%</span>
-        <!--Battery Icon-->
-        <!--Lightning Icon-->
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
       </div>
     </div>
+
+    <header class="welcome-headwer">
+      <h1 class="welcome-header__title">Welcome to Yalralloo Talk</h1>
+      <p class="welcome-header__text">
+        If you have a Yalralloo Account, log in with your email or phone number.
+      </p>
+    </header>
+
+    <form id="login-form">
+      <input type="text" placeholder="Email or phone number" />
+      <input type="password" placeholder="Password" />
+      <input type="submit" value="Log in" />
+      <input type="submit" value="Sign up" />
+      <a href="#">Find Yalralloo Account or Password</a>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/5a263d9c61.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
