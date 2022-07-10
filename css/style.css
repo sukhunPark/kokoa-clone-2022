@@ -17,6 +17,9 @@
 @import "components/alt-screen-header.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
+@import "components/no-mobile.css";
+
+
 
 body {
     font-family:  'Open Sans', sans-serif;
